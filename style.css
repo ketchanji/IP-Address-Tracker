@@ -239,12 +239,12 @@
     }
     .container{
         width: 80%;
-        height: 20vh;
+        height: 15vh;
         display: flex;
         margin: auto;
         border-radius: 15px;
         position: absolute;
-        top: 9rem;
+        top: 11rem;
         left: 2rem;
         background-color: white;
     }
