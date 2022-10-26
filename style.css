@@ -239,12 +239,16 @@
     }
     .container{
         width: 80%;
-        height: 20vh;
+        height: 15vh;
         display: flex;
         margin: auto;
         border-radius: 15px;
         position: absolute;
+<<<<<<< HEAD
         top: 10rem;
+=======
+        top: 11rem;
+>>>>>>> b639b0d1034df925d178e7d74043d776e23f5ec5
         left: 2rem;
         background-color: white;
     }
