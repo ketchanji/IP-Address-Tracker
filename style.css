@@ -41,8 +41,12 @@
     width: 10%;
     border-end-end-radius: 13px;
     border-start-end-radius: 13px;
+    border: none;
     background-color: black;
     color: #fff;
+}
+.input button:hover{
+    background-color: hsl(0, 0%, 17%);
 }
 
 .container{
@@ -59,6 +63,12 @@
 .container p{
     margin-top: 20px;
     border-right: 1px solid black;
+}
+.container h1{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 .container .ip{
     width: 25%;
@@ -87,6 +97,10 @@
 .bottom{
     width: 100%;
     height: 60vh;
+    background-image: url(/images/icon-location.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: hsl(0, 0%, 59%);
 }
 
@@ -96,7 +110,7 @@
         width: 45%;
         height: 10vh;
         margin: auto;
-        margin-top: 13px;
+        margin-top: 20px;
         display: flex;
     }
     .input input{
@@ -121,9 +135,15 @@
         margin: auto;
         border-radius: 15px;
         position: absolute;
-        top: 8.6rem;
+        top: 12rem;
         left: 7rem;
         background-color: white;
+    }
+    .container h1{
+        font-size: 20px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
     }
 }
 
@@ -136,23 +156,29 @@
         margin: auto;
         border-radius: 15px;
         position: absolute;
-        top: 8.6rem;
+        top: 12rem;
         left: 5rem;
         background-color: white;
     }
+    .container h1{
+        font-size: 17px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 645px) {
     .header h1{
         font-size: 35px;
         text-align: center;
         color: #fff;
-        padding-top: 10px;
+        padding-top: 20px;
     }
     .header .input{
-        width: 65%;
+        width: 69%;
         height: 10vh;
         margin: auto;
-        margin-top: 13px;
+        margin-top: 40px;
         display: flex;
     }
     .input input{
@@ -178,7 +204,7 @@
         margin: auto;
         border-radius: 15px;
         position: absolute;
-        top: 8rem;
+        top: 13rem;
         left: 2.5rem;
         background-color: white;
     }
@@ -207,7 +233,7 @@
         font-size: 12px;
     }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 425px) {
     .header h1{
         font-size: 35px;
         text-align: center;
@@ -218,7 +244,7 @@
         width: 65%;
         height: 10vh;
         margin: auto;
-        margin-top: 13px;
+        margin-top: 25px;
         display: flex;
     }
     .input input{
@@ -239,41 +265,123 @@
     }
     .container{
         width: 80%;
-        height: 15vh;
+        height: 40vh;
         display: flex;
+        flex-direction: column;
         margin: auto;
         border-radius: 15px;
         position: absolute;
-<<<<<<< HEAD
-        top: 10rem;
-=======
         top: 11rem;
->>>>>>> b639b0d1034df925d178e7d74043d776e23f5ec5
-        left: 2rem;
+        left: 2.5rem;
         background-color: white;
     }
+    .container h1{
+        font-size: 15px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+    .container p{
+        text-align: center;
+        margin-top: 10px;
+        border-right: none;
+    }
     .container .ip{
-        width: 25%;
+        width: 100%;
         height: 19vh; 
         text-align: center;
         font-size: 12px;
     }
     .container .location{
-        width: 25%;
+        width: 100%;
         height: 19vh;
         text-align: center;
         font-size: 12px;
     }
     .container .timezone{
-        width: 25%;
+        width: 100%;
         height: 19vh;
         text-align: center;
         font-size: 12px;
     }
     .container .isp{
-        width: 25%;
+        width: 100%;
         height: 19vh;
         text-align: center;
         font-size: 12px;
+    }
+}
+@media only screen and (max-width: 329px) {
+    .header h1{
+        font-size: 35px;
+        text-align: center;
+        color: #fff;
+        padding-top: 10px;
+    }
+    .header .input{
+        width: 65%;
+        height: 10vh;
+        margin: auto;
+        margin-top: 13px;
+        display: flex;
+    }
+    .input input{
+        width: 80%;
+        font-size: 9px;
+        border-end-start-radius: 13px;
+        border-start-start-radius: 13px;
+        border: none;
+        padding-left: 20px;
+    }
+    .input button{
+        width: 20%;
+        height: 10vh;
+        border-end-end-radius: 13px;
+        border-start-end-radius: 13px;
+        background-color: black;
+        color: #fff;
+    }
+    .container{
+        width: 80%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        border-radius: 15px;
+        position: absolute;
+        top: 10rem;
+        left: 1.6rem;
+        background-color: white;
+    }
+    .container h1{
+        font-size: 15px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+    .container p{
+        text-align: center;
+        margin-top: 10px;
+        border-right: none;
+    }
+    .container .ip{
+        width: 100%;
+        height: 19vh; 
+        font-size: 14px;
+    }
+    .container .location{
+        width: 100%;
+        height: 19vh;
+        font-size: 14px;
+    }
+    .container .timezone{
+        width: 100%;
+        height: 19vh;
+        font-size: 14px;
+    }
+    .container .isp{
+        width: 100%;
+        height: 19vh;
+        font-size: 14px;
     }
 }
