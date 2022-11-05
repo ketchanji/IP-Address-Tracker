@@ -97,13 +97,12 @@
 .bottom{
     width: 100%;
     height: 60vh;
-    background-image: url(/images/icon-location.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
     background-color: hsl(0, 0%, 59%);
 }
-
+.bottom img{
+    width: 100%;
+    height: 59.2vh;
+}
 
 @media only screen and (max-width: 1062px) {
     .header .input{
